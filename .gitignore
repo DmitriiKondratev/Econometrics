@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# gsl
+gsl/
+
+#IDEA
+.idea
