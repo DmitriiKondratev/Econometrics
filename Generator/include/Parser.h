@@ -15,7 +15,8 @@ class Parser {
 private:
     Parser() = delete;
     ~Parser() = delete;
-    Parser(const Parser &parser) = delete;
+    Parser(Parser const& parser) = delete;
+    Parser& operator=(Parser const& parser) = delete;
 public:
     static int scanBetas(const char* _fileName, std::vector<double> &betas);
     static int scanDistribution(const char* _fileName, Distribution &distribution);

@@ -70,7 +70,7 @@ void Generator::generate(size_t _n) {
         if (distrib.type == NORMAL) {
             random_num = gsl_ran_gaussian(r, distrib.sigma);
         }
-        times.push_back(interval.min + i * (interval.max - interval.min) / _n);
+        times.push_back(interval.min + i * (interval.max - interval.min) / (_n - 1));
         sample.push_back(g(betas, times[i]) + random_num);
     }
 

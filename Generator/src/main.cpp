@@ -2,11 +2,11 @@
 #include "./../include/Generator.h"
 #include "./../include/Parser.h"
 
-#define SAMPLE_SIZE 1000
+#define SAMPLE_SIZE 1000000
 #define FILE_NAME_BETAS "./../resources/betas_0.txt"
 #define FILE_NAME_DISTRIB "./../resources/distrib_0.txt"
 #define FILE_NAME_INTERVAL "./../resources/interval.txt"
-#define FILE_NAME_OUTPUT "./../output.txt"
+#define FILE_NAME_OUTPUT "./../../Lab_1/resources/sample.txt"
 
 // Possible arguments:
 // betas.txt distribution.txt interval.txt.txt output.txt
